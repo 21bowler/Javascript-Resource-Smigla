@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript tutorial</title>
+    <style>
+        .btn {
+            font-size: 2rem;
+            background: lightcoral;
+            text-transform: uppercase;
+            border-radius: 8px;
+        }
+        .btn2{
+            background: #f15025;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+        }
+        .btn-1{
+            background: red;
+            text-transform: uppercase;
+            color: #fff;
+            border: none;
+        }
+        .colors{
+            background-color: red;
+            color: #fff;
+        }
+        .red{
+            background: red;
+            color: white;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        .blue{
+            background: blue;
+            color: white;
+            letter-spacing: 10px;
+            text-transform: capitalize;
+        }
+        a{
+            display: inline-block;
+            /* margin-top: 100vh; */
+        }
+        .title{
+            background-color: blue;
+            text-transform: capitalize;
+            font-size: 3rem;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">HELLO WORLD</h1>
+    <button class="btn" id="btn">click me</button>
+
+    <h3>hello people</h3>
+    <ul id="result">
+        <li class="specials" >apple</li>
+        <li>orange</li>
+        <li class="specials" >banana</li>
+        <li>pear</li>
+        <li class="specials" >tomato</li>
+    </ul>
+
+
+     <!-- for brownsapi2 -->
+    <div id="result2">
+        <h1>hello kenya</h1>
+        <div class="second">
+            <h3>second heading</h3>
+        </div>
+    </div>
+
+    <ul id="result3" >
+        <li class="first">first</li>
+        <li>last item 2</li>
+        <li>last item 3</li>
+        <li id="last">last</li>
+    </ul>
+
+    <!-- FOR nodeValue -->
+    <h1 id="content">this is a special content</h1>
+
+    <!-- FOR getAttribute -->
+    <ul>
+        <li class="firsts" id="good">i have a class of first</li>
+        <a href="first.html" id="link">random link</a>
+        <li>i have no attributes</li>
+    </ul>
+    <!-- FOR className and classList -->
+    <h1 id="kwanza" class="colors">i am first element</h1>
+    <h1 id="pili">i am second element</h1>
+    <h1 id="tatu">i am third element</h1>
+
+    <div id="result4">
+        <h1 class="red">I am the child of result</h1>
+    </div>
+
+    <!-- For innerHTML and textContent -->
+
+    <ul id="firsts">
+        <li class="item">list item</li>
+        <li>list item</li>
+    </ul>
+    <div id="seconds">
+        i have some text content
+    </div>
+
+    <!-- FOR CSS time 8hrs 53min 25sec -->
+    <div class="random">i am just some random div looking for some CSS</div>
+
+    <!-- This is FOR event.js time 8hrs 59min-->
+    <h2>events in Javascript</h2>
+    <p>Hey, i can trigger an event</p>
+    <button class="btn2">click Me</button>
+    <p onclick="this.classList.add('red')">the old style</p>
+    
+    <!-- FOR key events -->
+    <input type="text" id="name">
+
+    <br>
+    <br>
+    <!-- FOR eventObject.js -->
+    <button class="btn3">ClickMe</button>
+    <h4>some heading</h4>
+    <a href="" id="link2">random link</a>  <br><br>
+
+    <!-- FOR currentTarget and target -->
+    <button class="btn-1">first button</button> <br><br>
+    <button class="btn-1"> <br><br>
+        second <strong>button<strong>more nested</strong></strong>
+    </button> <br><br>
+    <button class="btn-1">third button</button>
+
+    <!-- FOR propagation -->
+    <div class="container">
+        <ul class="list-items">
+            <li class="item"><a href="#" class="link">link</a></li>
+            <li class="item"><a href="#" class="link">link</a></li>
+            <li class="item"><a href="#" class="link">link</a></li>
+        </ul>
+    </div>
+
+    <div class="container-one">
+        <h1 class="heading-one">I'm sitting inside container</h1>
+    </div>
+    <button class="btn-me">clickMe</button>
+
+    <!-- FOR  submitting event listeners -->
+    <form action=""id="form">
+      <input type="text" id="name-2">
+      <input type="password" id="password">
+      <input type="submit" value="submit">
+    </form>
+
+    <!-- <button onclick="alert('hello people')">CLICKME</button> -->
+    <!-- <button onclick="alert('hello people')">CLICKME</button> -->
+    <!-- <button onclick="alert('hello people')">CLICKME</button> -->
+    <!-- <script src="./app.js"></script> -->
+    <!-- <script src="./otp.js"></script> -->
+    <!-- <script src="./combination.js"></script> -->
+    <!-- <script src="./string.js"></script> -->
+    <!-- <script src="./referenceVSvalue.js"></script> -->
+    <!-- <script src="./globalscope.js"></script> -->
+    <!-- <script src="./variablelookup.js"></script> -->
+    <!-- <script src="./arraymethods.js"></script> -->
+    <!-- <script src="./math.js"></script> -->
+    <!-- <script src="./date.js"></script> -->
+    <!-- <script src="./Dom.js"></script> -->
+    <!-- <script src="./browsapi.js"></script> -->
+    <!-- <script src="./browsapi2.js"></script> -->
+    <!-- <script src="./nodeValue.js"></script> -->
+    <!-- <script src="./prepend.js"></script> -->
+    <!-- <script src="./events.js"></script> -->
+    <!-- <script src="./keyevents.js"></script> -->
+    <!-- <script src="./eventObject.js"></script> -->
+    <!-- <script src="./submitEvent.js"></script> -->
+    <script src="./webApi.js"></script>
+</body>
+</html>
